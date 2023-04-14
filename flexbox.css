@@ -1,0 +1,43 @@
+.conteneur{
+    display:flex;
+    background-color: blue;
+    height:100px;
+    width:200px;
+    flex-direction:row;
+    justify-content:start;
+    align-items: baseline;
+    line-height: 50px;
+    flex-wrap:wrap;
+}
+.element1{
+    order: 4;
+    flex-grow: 2;
+    text-align: center;
+    color: white;
+    background-color: green;
+    width:130px;
+    height:60px;
+}
+.element2{
+    order: 3;
+    text-align: center;
+    color: white;
+    background-color:rgb(0, 149, 255);
+    width:130px;
+    height: 90px;
+}
+.element3{
+    text-align: center;
+    color: white;
+    background-color: orange;
+    width:130px;
+    height: 70px;
+    
+}
+.element4{
+    text-align: center;
+    color: white;
+    background-color: rgb(227, 227, 41);
+    width:130px;
+    height: 50px;
+}
